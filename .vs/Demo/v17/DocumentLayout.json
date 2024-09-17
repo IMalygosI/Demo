@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\prdb\\source\\repos\\Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ADE6F4BF-4BD3-4A73-9C2E-4801047408FB}|Demo\\Demo.csproj|c:\\users\\prdb\\source\\repos\\demo\\demo\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADE6F4BF-4BD3-4A73-9C2E-4801047408FB}|Demo\\Demo.csproj|solutionrelative:demo\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADE6F4BF-4BD3-4A73-9C2E-4801047408FB}|Demo\\Demo.csproj|c:\\users\\prdb\\source\\repos\\demo\\demo\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{ADE6F4BF-4BD3-4A73-9C2E-4801047408FB}|Demo\\Demo.csproj|solutionrelative:demo\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\Demo\\Demo\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "Demo\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\prdb\\source\\repos\\Demo\\Demo\\MainWindow.axaml",
+              "RelativeToolTip": "Demo\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-17T14:02:50.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\Demo\\Demo\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "Demo\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\prdb\\source\\repos\\Demo\\Demo\\MainWindow.axaml.cs",
+              "RelativeToolTip": "Demo\\MainWindow.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T13:55:26.79Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
