@@ -22,5 +22,8 @@ build_property.EnableGeneratedComInterfaceComImportInterop =
 [C:/Users/prdb/source/repos/Demo/Demo/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[C:/Users/prdb/source/repos/Demo/Demo/Dobavit.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Users/prdb/source/repos/Demo/Demo/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

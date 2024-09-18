@@ -29,12 +29,15 @@
 				   VerticalAlignment="Bottom"
 				   HorizontalAlignment="Right"
 				   Margin="0 0 30 0">
+
 			<ComboBox Name="BoxOne"
-					  SelectedIndex="0"
 					  MinWidth="250"
 					  MaxWidth="300">
-				<ComboBoxItem>Все элементы</ComboBoxItem>
-				<ComboBoxItem>Производитель</ComboBoxItem>
+				<ComboBox.ItemTemplate>
+					<DataTemplate>
+						<TextBlock Text="{Binding ManufacturerName}"/>	
+					</DataTemplate>
+				</ComboBox.ItemTemplate>
 			</ComboBox>
 
 			<ComboBox Name="BoxTwo"
@@ -63,7 +66,7 @@
 					   FontWeight="Bold"/>
 		</DockPanel>
 
-		<Button Name="Dibavit"
+		<Button Name="Dobavit"
 				Grid.Column="2"
 				Grid.Row="2"
 				HorizontalAlignment="Right"
@@ -77,7 +80,7 @@
 					   VerticalAlignment="Center"
 					   FontWeight="Bold"/>
 		</Button>
-		
+
 		<ListBox Name="ListBox"
 				 Grid.ColumnSpan="3"
 				 Grid.Row="1"
@@ -93,6 +96,7 @@
 			<ListBox.ItemTemplate>
 				<DataTemplate>
 					<Border BorderThickness="0.9"
+							Background="#e7fabf"
 							BorderBrush="Gray"
 							Width="250"
 							Height="400">
@@ -104,14 +108,18 @@
 								   Grid.Row="0"/>
 							<TextBlock Text="{Binding Cost}"
 								       Margin="5 0 0 0"
+									   FontWeight="Bold"
 									   Grid.Column="0"
 									   Grid.Row="1"/>
 							<TextBlock Text="{Binding Activity}"
+									   Foreground="#04a0ff"
+									   FontWeight="Bold"
 								       Margin="5 0 0 0"
 									   Grid.Column="0"
 									   Grid.Row="2"/>
 							<TextBlock Text="{Binding TovarName}"
 								       Margin="5 0 0 0"
+									   FontWeight="Bold"
 									   TextWrapping="Wrap"
 									   Grid.ColumnSpan="3"
 									   Grid.Row="3"/>
@@ -128,8 +136,5 @@
 				</DataTemplate>
 			</ListBox.ItemTemplate>
 		</ListBox>
-		
-		
-		
 	</Grid>
 </Window>

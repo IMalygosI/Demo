@@ -31,4 +31,6 @@ public partial class Product
     public Bitmap Pictures => MainImagePath != null ? new Bitmap($@"Assets\\Товары школы\\{MainImagePath}") : null!;
 
     public string Activity => IdActivity == 1 ? "Активный" : "Неактивный";
+
+
 }

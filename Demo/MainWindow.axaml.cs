@@ -13,13 +13,28 @@ namespace Demo
         public MainWindow()
         {
             InitializeComponent();
+            List_Box();
+
+            BoxOne.SelectionChanged += BoxOne_SelectionChanged;
             BoxTwo.SelectionChanged += BoxTwo_SelectionChanged;//сортировка по цене
+
+            Dobavit.Click += Dobavit_Click;
 
             Vsego.Text = Convert.ToString(Helper.DataBase.Products.Count());// Сколько всего эл-тов
             Pokaz.Text = Convert.ToString(Helper.DataBase.Products.Count());//Сколько отображается эл-ов сейчас
-            List_Box();
         }
 
+        private void Dobavit_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+        {
+            Dobavit okko = new Dobavit();
+            okko.Show();
+            this.Close();
+        }
+
+        private void BoxOne_SelectionChanged(object? sender, SelectionChangedEventArgs e)
+        {
+            BoxOne.ItemsSource = Helper.DataBase.Manufacturers;
+        }
 
         private void BoxTwo_SelectionChanged(object? sender, SelectionChangedEventArgs e)
         {
@@ -40,7 +55,7 @@ namespace Demo
         public void List_Box()
         {
             ListBox.ItemsSource = Helper.DataBase.Products.ToList();
-
+            /*
             ListBox.ItemsSource = Helper.DataBase.Products.Select(x => new
             {
                 x.Pictures,
@@ -53,6 +68,7 @@ namespace Demo
 
 
             }).ToList();
+            */
         }
     }
 }
