@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\prdb\\source\\repos\\Demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ADE6F4BF-4BD3-4A73-9C2E-4801047408FB}|Demo\\Demo.csproj|c:\\users\\prdb\\source\\repos\\demo\\demo\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{ADE6F4BF-4BD3-4A73-9C2E-4801047408FB}|Demo\\Demo.csproj|solutionrelative:demo\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ADE6F4BF-4BD3-4A73-9C2E-4801047408FB}|Demo\\Demo.csproj|c:\\users\\prdb\\source\\repos\\demo\\demo\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADE6F4BF-4BD3-4A73-9C2E-4801047408FB}|Demo\\Demo.csproj|solutionrelative:demo\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADE6F4BF-4BD3-4A73-9C2E-4801047408FB}|Demo\\Demo.csproj|c:\\users\\prdb\\source\\repos\\demo\\demo\\models\\manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADE6F4BF-4BD3-4A73-9C2E-4801047408FB}|Demo\\Demo.csproj|solutionrelative:demo\\models\\manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ADE6F4BF-4BD3-4A73-9C2E-4801047408FB}|Demo\\Demo.csproj|c:\\users\\prdb\\source\\repos\\demo\\demo\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{ADE6F4BF-4BD3-4A73-9C2E-4801047408FB}|Demo\\Demo.csproj|solutionrelative:demo\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADE6F4BF-4BD3-4A73-9C2E-4801047408FB}|Demo\\Demo.csproj|c:\\users\\prdb\\source\\repos\\demo\\demo\\dobavit.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADE6F4BF-4BD3-4A73-9C2E-4801047408FB}|Demo\\Demo.csproj|solutionrelative:demo\\dobavit.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ADE6F4BF-4BD3-4A73-9C2E-4801047408FB}|Demo\\Demo.csproj|c:\\users\\prdb\\source\\repos\\demo\\demo\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADE6F4BF-4BD3-4A73-9C2E-4801047408FB}|Demo\\Demo.csproj|solutionrelative:demo\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,73 +31,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Manufacturer.cs",
-              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\Demo\\Demo\\Models\\Manufacturer.cs",
-              "RelativeDocumentMoniker": "Demo\\Models\\Manufacturer.cs",
-              "ToolTip": "C:\\Users\\prdb\\source\\repos\\Demo\\Demo\\Models\\Manufacturer.cs",
-              "RelativeToolTip": "Demo\\Models\\Manufacturer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\Demo\\Demo\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Demo\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\prdb\\source\\repos\\Demo\\Demo\\Models\\Product.cs",
+              "RelativeToolTip": "Demo\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T14:06:13.12Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Dobavit.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\Demo\\Demo\\Dobavit.axaml.cs",
-              "RelativeDocumentMoniker": "Demo\\Dobavit.axaml.cs",
-              "ToolTip": "C:\\Users\\prdb\\source\\repos\\Demo\\Demo\\Dobavit.axaml.cs",
-              "RelativeToolTip": "Demo\\Dobavit.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T12:36:46.227Z",
+              "WhenOpened": "2024-09-19T15:15:48.772Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\Demo\\Demo\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "Demo\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\prdb\\source\\repos\\Demo\\Demo\\MainWindow.axaml",
+              "RelativeToolTip": "Demo\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-19T15:10:51.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainWindow.axaml.cs",
               "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\Demo\\Demo\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "Demo\\MainWindow.axaml.cs",
               "ToolTip": "C:\\Users\\prdb\\source\\repos\\Demo\\Demo\\MainWindow.axaml.cs*",
               "RelativeToolTip": "Demo\\MainWindow.axaml.cs*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAmwCUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAwwEoAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T13:55:26.79Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "45521aa0-97b5-4213-9f06-31b0532c1deb",
-        "Display": 0,
-        "X": 941,
-        "Y": -49,
-        "Width": 1720,
-        "Height": 906,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\Demo\\Demo\\MainWindow.axaml",
-              "RelativeDocumentMoniker": "Demo\\MainWindow.axaml",
-              "ToolTip": "C:\\Users\\prdb\\source\\repos\\Demo\\Demo\\MainWindow.axaml*",
-              "RelativeToolTip": "Demo\\MainWindow.axaml*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-17T14:02:50.014Z",
+              "WhenOpened": "2024-09-19T15:04:56.21Z",
               "EditorCaption": ""
             }
           ]

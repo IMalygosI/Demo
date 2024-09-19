@@ -10,26 +10,43 @@ namespace Demo
 {
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
-            List_Box();
 
             BoxOne.SelectionChanged += BoxOne_SelectionChanged;
             BoxTwo.SelectionChanged += BoxTwo_SelectionChanged;//сортировка по цене
+            ListBox.SelectionChanged += ListBox_SelectionChanged;// Вызов окна редактирования элемента
 
             Dobavit.Click += Dobavit_Click;
 
             Vsego.Text = Convert.ToString(Helper.DataBase.Products.Count());// Сколько всего эл-тов
             Pokaz.Text = Convert.ToString(Helper.DataBase.Products.Count());//Сколько отображается эл-ов сейчас
+
+
+            List_Box();
         }
 
-        private void Dobavit_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+        List<Product> product = Helper.DataBase.Products.ToList();
+     
+
+            
+        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Dobavit okko = new Dobavit();
-            okko.Show();
-            this.Close();
-        }
+            var selectedItem = ListBox.SelectedItem;
+            if (selectedItem != null)
+            {
+                var productId = ((dynamic)selectedItem).Id;
+                if (productId != null)
+                {
+                    Helper.massiv[0] = productId;
+                    Redact taskWindow = new Redact();
+                    taskWindow.Show();
+                    this.Close();
+                }
+            }
+        }// Вызов окна редактирования элемента
 
         private void BoxOne_SelectionChanged(object? sender, SelectionChangedEventArgs e)
         {
@@ -44,31 +61,27 @@ namespace Demo
                     List_Box();
                     break;
                 case 1: // Сортировка по Убыванию
-                    ListBox.ItemsSource = Helper.DataBase.Products.OrderByDescending(z => z.Cost).ToList();//Уменьшение
+                    ListBox.ItemsSource = Helper.DataBase.Products.OrderByDescending(z => z.Cost).ToList();// Сортировка по Убыванию
                     break;
                 case 2: // Сортировка по Воззрастанию
-                    ListBox.ItemsSource = Helper.DataBase.Products.OrderBy(z => z.Cost).ToList();//Увеличение
+                    ListBox.ItemsSource = Helper.DataBase.Products.OrderBy(z => z.Cost).ToList(); ;// Сортировка по Воззрастанию
                     break;
             }
-        }
-
+        }// Сортировка по цене
         public void List_Box()
         {
+            string SearchText = SearchTextBox.Text ?? "";
+            if (!string.IsNullOrEmpty(SearchText))
+                product = product.Where(y => y.TovarName.Contains(SearchText) ).ToList();
+          //  product = product.Where(y => y.TovarName.Contains(SearchText) || y.Description.Contains(SearchText)).ToList();
+
             ListBox.ItemsSource = Helper.DataBase.Products.ToList();
-            /*
-            ListBox.ItemsSource = Helper.DataBase.Products.Select(x => new
-            {
-                x.Pictures,
-                x.Cost,
-                x.Activity,
-                x.TovarName,
-
-
-                Color = x.Activity == "Активный" ? "CenterScreen" : "Gray"
-
-
-            }).ToList();
-            */
-        }
+        }// Загрузка данных в листбокс
+        private void Dobavit_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+        {
+            Dobavit okko = new Dobavit();
+            okko.Show();
+            this.Close();
+        }// Окно добавления
     }
 }

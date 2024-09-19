@@ -1,4 +1,5 @@
-﻿using Avalonia.Media.Imaging;
+﻿using Avalonia.Media;
+using Avalonia.Media.Imaging;
 using System;
 using System.Collections.Generic;
 
@@ -32,5 +33,5 @@ public partial class Product
 
     public string Activity => IdActivity == 1 ? "Активный" : "Неактивный";
 
-
+    public SolidColorBrush SColor => Activity == "Активный" ? new SolidColorBrush(Color.Parse("#e7fabf"))  : new SolidColorBrush(Color.Parse("Gray")) ;
 }
