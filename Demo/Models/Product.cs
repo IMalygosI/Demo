@@ -33,5 +33,5 @@ public partial class Product
 
     public string Activity => IdActivity == 1 ? "Активный" : "Неактивный";
 
-    public SolidColorBrush SColor => Activity == "Активный" ? new SolidColorBrush(Color.Parse("#e7fabf"))  : new SolidColorBrush(Color.Parse("Gray")) ;
+    public SolidColorBrush SColor => Activity == "Активный" ? new SolidColorBrush(Color.Parse("#e7fabf")) : new SolidColorBrush(Color.Parse("Gray")) ;
 }

@@ -10,23 +10,12 @@ namespace Demo;
 
 public partial class Redact : Window
 {
+    public Product product;
     public Redact()
     {
         InitializeComponent();
-        // Айди ++ / Наименование ++ / Цена ++ / Описание + +/ Главное изображение ++ / Производитель + 
-        // Id // TovarName  // Cost / Description // Pictures// (ManufacturerName)Немного изменить
 
-
-
-        string pictures;
-        Id.Text = Convert.ToString(Helper.massiv[0]);
-        TovarName.Text = Convert.ToString(Helper.massiv[0]);
-        Cost.Text = Convert.ToString(Helper.massiv[0]);
-        Description.Text = Convert.ToString(Helper.massiv[0]);
-        pictures = Convert.ToString(Helper.massiv[0]);
-        Pictures.Source = new Bitmap($@"Assets\\Товары школы\\{pictures}");
-
-
+      //  Product.Datacontext;
 
         Otmena_Button.Click += Otmena_Button_Click;
     }
